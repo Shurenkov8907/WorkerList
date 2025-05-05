@@ -9,26 +9,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Табельный номер"
-        android:inputType="text" />
+        android:inputType="text"
+        android:minHeight="48dp"
+        />
 
     <EditText
         android:id="@+id/nameEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="ФИО"
-        android:inputType="text" />
+        android:inputType="text"
+        android:minHeight="48dp"
+        />
 
     <EditText
         android:id="@+id/gradeEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Разряд"
-        android:inputType="text" />
+        android:inputType="text"
+        android:minHeight="48dp"
+        />
 
     <EditText
         android:id="@+id/rateEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Часовая ставка"
-        android:inputType="numberDecimal" />
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        />
 </LinearLayout>
